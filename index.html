@@ -14,7 +14,8 @@
     region: "us-south", // The region your integration is hosted in.
     serviceInstanceID: "04168562-ba0c-4291-a7ca-3d4c09ac9ca7", // The ID of your service instance.
     onLoad: async (instance) => { await instance.render(); },
-    openChatByDefault : true
+    openChatByDefault : true,
+    enableFocusTrap: true
   };
   setTimeout(function(){
     const t=document.createElement('script');
